@@ -1,0 +1,88 @@
+.sidebar{
+    flex: 1;
+    background-color: white;
+    color: rgb(27, 27, 26);
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(242, 243, 243);
+    border-right: 20px;
+}
+.sidebar_headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_headerLeft h2{
+    margin-left: 10px;
+}
+
+.sidebar_headerRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10vw;
+}
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 7px;
+    background-color: #f6f6f6;
+}
+
+.sidebar_searchContainer{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.sidebar_searchContainer input{
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+
+.sidebar_chats{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.sidebar_chat{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(122, 118, 118);
+    padding: 15px;
+
+}
+.sidebar_chat:hover{
+    cursor: pointer;
+    background-color: rgb(229, 245, 245);
+}
+
+.sidebar_chatInfo{
+    margin-left: 13px;
+}
+
+.sidebar_chat .MuiAvatar-circular {
+   height:30px;
+   width:30px;}
+
+.sidebar_chatInfo h2{
+    font-size: 16px;
+}
+
+.sidebar_chatInfo p{
+    font-size: 13px;
+}
+
+.sidebar_chat > h2{
+    font-size: 25px;
+    margin-left: 25px;
+
+}
